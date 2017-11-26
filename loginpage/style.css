@@ -1,0 +1,233 @@
+.navbar{
+	border-radius: 1px;
+	border: 1px solid #c5c9db;
+}
+.navbar-inverse{
+	    background-color: #525a75;
+}
+.navbar-inverse .navbar-brand {
+    /* color: #9d9d9d; */
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.loginform{
+	width: 40%;
+	/*height: 60%;*/
+	margin: auto;
+	margin-top: 20px;
+	/*border: 1px solid grey;*/
+	    padding-left: 20px;
+	        padding-bottom: 10px;
+	     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+}
+
+.formtitle {
+       font-size: 24px;
+    padding-top: 35px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 30%;
+    color: #7f7a8b;
+}	
+.fa-lock{
+	width: 20%;
+	margin-left: 15px;
+	display: inline-block;
+	float: left;
+
+
+}
+.fa-user{
+	width: 20%;
+	margin-left: 15px;
+	display: inline-block;
+	float: left;
+}
+.input {
+
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	    margin-left: 40px;
+    margin-top: -35px;
+    margin-bottom: 20px;
+	width: 85%;
+	vertical-align: top;
+}
+
+
+.input__field {
+	position: relative;
+	display: block;
+	float: right;
+	padding: 0.8em;
+	width: 70%;
+	border: none;
+	border-radius: 0;
+	background: #f0f0f0;
+	color: #aaa;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-appearance: none; /* for box shadows to show on iOS */
+}
+
+.input__field:focus {
+	outline: none;
+}
+
+.input__label {
+	display: inline-block;
+	float: right;
+	padding: 0 1em;
+	width: 40%;
+	color: #6a7989;
+	font-weight: bold;
+	font-size: 70.25%;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.input__label-content {
+	position: relative;
+	display: block;
+	color: #a3a3a5;
+	padding: 11px 6px;
+	width: 100%;
+}
+.inputh {
+	overflow: hidden;
+}
+
+.input__fieldh {
+	margin-top: 1em;
+	padding: 0.85em 0.15em;
+	width: 100%;
+	background: transparent;
+	color: #595F6E;
+}
+
+.input__labelh {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0 0.25em;
+	width: 100%;
+	height: calc(100% - 1em);
+	text-align: left;
+	pointer-events: none;
+}
+
+.input__label-contenth {
+	position: absolute;
+}
+
+.input__labelh::before,
+.input__label--hoshi::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: calc(100% - 10px);
+	border-bottom: 1px solid #B9C1CA;
+}
+
+.input__labelh::after {
+	margin-top: 2px;
+	border-bottom: 4px solid red;
+	-webkit-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.input__labelh-color-1::after {
+	border-color: hsl(200, 100%, 50%);
+}
+
+
+.input__fieldh:focus + .input__labelh::after,
+.input--filled .input__label--hoshi::after {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.input__fieldh:focus + .input__labelh .input__label-contenth,
+.input--filled .input__label-contenth {
+	-webkit-animation: anim-1 0.3s forwards;
+	animation: anim-1 0.3s forwards;
+}
+@-webkit-keyframes anim-1 {
+	50% {
+		opacity: 0;
+		-webkit-transform: translate3d(1em, 0, 0);
+		transform: translate3d(1em, 0, 0);
+	}
+	51% {
+		opacity: 0;
+		-webkit-transform: translate3d(-1em, -40%, 0);
+		transform: translate3d(-1em, -40%, 0);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translate3d(0, -40%, 0);
+		transform: translate3d(0, -40%, 0);
+	}
+}
+
+@keyframes anim-1 {
+	50% {
+		opacity: 0;
+		-webkit-transform: translate3d(1em, 0, 0);
+		transform: translate3d(1em, 0, 0);
+	}
+	51% {
+		opacity: 0;
+		-webkit-transform: translate3d(-1em, -40%, 0);
+		transform: translate3d(-1em, -40%, 0);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translate3d(0, -40%, 0);
+		transform: translate3d(0, -40%, 0);
+	}
+}
+.checkbox{
+	margin-left: 35px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.form-group{
+	margin-bottom: 0px;
+}
+.btn-block{
+	margin-top: 25px;
+	margin-bottom: 15px;
+	width: 92%;
+	
+	height: 30px;
+	margin-left: 15px;
+	font-size: 12px;
+}
+.paras{
+	margin-top: 35px;
+	margin-bottom: 25px;
+	margin-left: 6px;
+}
+.forgot{
+	padding-left: 70px;
+	color: #aeb6c8;
+}
+.register{
+	color: #aeb6c8;
+}

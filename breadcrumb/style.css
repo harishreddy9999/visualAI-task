@@ -1,0 +1,125 @@
+.navbar{
+	border-radius: 1px;
+	border: 1px solid #c5c9db;
+}
+.navbar-inverse{
+	    background-color: #525a75;
+}
+.navbar-inverse .navbar-brand {
+    /* color: #9d9d9d; */
+    color: white;
+    padding-left: 100px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+i.fa.fa-bell-o {
+    padding-right: 25px;
+    color: white;
+    padding-top: 16px;
+}
+li.usergreet {
+    /* padding: 10px; */
+    padding-right: 20px;
+    padding-top: 13px;
+    color: white;
+}
+span.uname {
+    padding-left: 7px;
+}
+i.fa.fa-user {
+    padding-left: 15px;
+}	
+span.glyphicon.glyphicon-question-sign {
+    color: white;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #525a75;
+    margin-top:300px;
+    margin-left:-250px;
+    color: white;
+    /* Rotate div */
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+.breadcrumb{
+	background-color: white;
+
+}
+.bc-icons-2 {
+    margin-top: -350px;
+    margin-left: 125px;
+}
+li.breadcrumb-item {
+    padding-right: 20px;
+}
+a.black-text {
+    padding-right: 15px;
+}
+
+.bc-icons-2 .breadcrumb-item + .breadcrumb-item::before {
+    content: none; 
+} 
+.bc-icons-2 .breadcrumb-item.active {
+    color: #455a64; 
+}
+.cardsdiv {
+  
+  margin-left: 160px;
+  
+}
+.card{
+	width: 260px;
+   /* border: 1px solid grey;*/
+    height: 375px;
+    /*margin-left: 160px;*/
+   padding-top: 7px;
+   padding-left: 13px;
+   padding-right: 10px;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  margin-right: 30px;
+}
+h1.title {
+    font-size: 20px;
+   /* padding-top: -38px;*/
+    color: #a7b1b8;
+}
+.line{
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.card1image{
+	height: 225px;
+	width: 200px;
+	margin-left:15px;
+}
+.cardimg{
+	height: 100%;
+	width: 100%;
+}
+.col-sm-6.totalsize {
+   
+    padding-left: 30px;
+    color: #87898a;
+    font-size: 13px;
+}
+.col-sm-6.totalimages {
+    /* padding-right: 26px; */
+    padding-left: 30px;
+    color: #87898a;
+    font-size: 13px;
+}
+.col-sm-6.count {
+    padding-left: 55px;
+}
+.col-sm-6.mb {
+    padding-left: 31px;
+}
